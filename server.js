@@ -41,6 +41,9 @@ const springdataRoute = require('./routes/springdataRoutes');
 app.use('/api', springdataRoute);
 //app.use('/.netlify/functions/api', springdataRoute);
 
+const usersRoute = require('./routes/newUserRoutes');
+app.use('/api', usersRoute);
+
 
 db.sequelize.sync().then(() =>{
     //module.exports.handler = serverless(app);

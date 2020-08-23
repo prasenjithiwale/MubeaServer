@@ -36,7 +36,7 @@ router.post('/hps/new', (req, res) =>{
         SpringMin: req.body.SpringMin,
         MAHPSNo: req.body.MAHPSNo,
         LoFinal: req.body.LoFinal,
-        ID: req.body.ID,
+        ID1: req.body.ID1,
         OD: req.body.OD,
         Lc: req.body.Lc,
         F1: req.body.F1,
