@@ -15,10 +15,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "sql12360478",
-    "password": "FQMCP9ejty",
-    "database": "sql12360478",
-    "host": "sql12.freesqldatabase.com",
+    "username": "root",
+    "password": "iama4663",
+    "database": "mubeaindia",
+    "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": 0
   }
