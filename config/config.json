@@ -19,7 +19,6 @@
     "password": "Prasenjit@86",
     "database": "mubeaindia",
     "host": "db4free.net",
-    "port":"3306",
     "dialect": "mysql",
     "operatorsAliases": 0
   }
