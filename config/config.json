@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "prasenjit",
-    "password": "Prasenjit@86",
+    "username": "root",
+    "password": "iama4663",
     "database": "mubeaindia",
-    "host": "db4free.net",
+    "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": 0
   },

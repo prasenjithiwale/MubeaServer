@@ -47,7 +47,7 @@ app.use('/api', usersRoute);
 
 db.sequelize.sync().then(() =>{
     //module.exports.handler = serverless(app);
-    app.listen(process.env.PORT, () => {
-        console.log(`Server listening on port ${process.env.PORT}`);
+    app.listen(PORT, () => {
+        console.log(`Server listening on port ${PORT}`);
     });
 });

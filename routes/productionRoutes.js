@@ -48,10 +48,10 @@ router.post('/production/new', (req, res) =>{
 router.delete('/production/delete/:PartNo', (req, res) => {
     db.ProductionNo.destroy({
         where: {
-            PartNo: req.params.id
+            PartNo: req.params.PartNo
         }
     }).then(() => res.send({
-        message: 'Part No \''+req.params.id+'\' deleted successfully'
+        message: 'Part No \''+req.params.PartNo+'\' deleted successfully'
     })).catch(err => {
         res.status(500).send({
             message: err.message
@@ -74,9 +74,7 @@ router.put('/production/edit', (req, res) => {
         {
             where: {PartNo: req.body.PartNo}
         }
-    ).then(() => res.send({
-        message: 'Part No \''+req.body.PartNo+'\' updated successfully'
-    })).catch(err => {
+    ).then(() => res.send(submittedProduction => res.send(submittedProduction))).catch(err => {
         res.status(500).send({
             message: err.message
         });
