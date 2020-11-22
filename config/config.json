@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": "iama4663",
-    "database": "mubeaindia",
+    "password": "rutuja@1999",
+    "database": "mubeaserver",
     "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": 0
