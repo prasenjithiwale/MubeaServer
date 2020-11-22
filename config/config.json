@@ -1,7 +1,7 @@
 {
   "development": {
-    "username": "root",
-    "password": "rutuja@1999",
+    "username": "rutuja",
+    "password": "Rutuja@1999",
     "database": "mubeaserver",
     "host": "localhost",
     "dialect": "mysql",
