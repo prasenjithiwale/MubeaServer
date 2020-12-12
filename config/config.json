@@ -1,26 +1,26 @@
 {
   "development": {
-    "username": "rutuja",
-    "password": "Rutuja@1999",
+    "username": "prasenjit",
+    "password": "PrasenjitHiwale",
     "database": "mubeaserver",
     "host": "localhost",
     "dialect": "mysql",
     "operatorsAliases": 0
   },
   "test": {
-    "username": "prasenjit",
-    "password": "Prasenjit@86",
-    "database": "mubeaindia",
-    "host": "db4free.net",
-    "dialect": "mysql",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "",
     "operatorsAliases": 0
   },
   "production": {
-    "username": "prasenjit",
-    "password": "Prasenjit@86",
-    "database": "mubeaindia",
-    "host": "db4free.net",
-    "dialect": "mysql",
+    "username": "",
+    "password": "",
+    "database": "",
+    "host": "",
+    "dialect": "",
     "operatorsAliases": 0
   }
 }
